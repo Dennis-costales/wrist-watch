@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+ text-align: center;
+ padding-top: 50px;
+}
+
+.clock-container {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px 0 0 0;
+    width: 300px;
+    height: 360px;
+    background-image: -webkit-linear-gradient(left, rgb(70, 0, 0), rgb(0, 75, 105), rgb(65, 65, 65));
+    border-radius: 25px;
+    box-shadow: 6px 6px 15px gray;
+}
+
+.background-color-image {
+    margin: 0 auto;
+    width: 260px;
+    height: 300px;
+    background-image: -webkit-linear-gradient(top, rgb(2, 150, 196),rgb(125, 225, 255), rgb(0, 180, 150));
+    border-radius: 30px;
+}
+.time {
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 0 0;
+    color: rgb(32, 32, 32);
+    text-shadow: 2px 2px 5px rgb(189, 189, 189);
+}
+.hr-min {
+    font-size: 75px;
+}
+.ampm {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quotes-container {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.quotes-div {
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qoutes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    text-shadow: 1px 1px 2px gray;
+}
+
+p {
+    flex-direction: column;
+    width: 150px;
+    height: none;
+    padding: 2px;
+    background-color: none;
+    font-size: 1.2rem;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    border: none;
+}
+.date-container {
+    font-weight: bold;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    padding: 0;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(53, 53, 53);
+    text-shadow: 1px 1px 2px rgb(151, 145, 145);
+}
+.date {
+    color: rgb(53, 53, 53);
+    font-size: .78rem;
+}
+
+/* Button Container*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+button {
+    width: 50px;
+    height: 25px;
+    background-color: rgb(245, 245, 245);
+    font-size: .75rem;
+    border: none;
+    box-shadow: 2px 2px 8px rgb(116, 116, 116);
+    border-radius: 25px;
+}
+
+#slideButton {
+    margin: 0;
+    outline: none;
+}
+#slideButton:hover {
+    background-color: rgb(162, 205, 255);
+}
+
